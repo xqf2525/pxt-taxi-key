@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://quay.io/keycloak/keycloak:25.0.6 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/keycloak:25.0.6
+        skopeo copy docker://docker.io/chishin/nginx-proxy-manager-zh:latest docker://crpi-qomc6rufku2gvzqd.cn-guangzhou.personal.cr.aliyuncs.com/xqf2525/docker1/rancher-images/nginx-proxy-manager-zh:latest
